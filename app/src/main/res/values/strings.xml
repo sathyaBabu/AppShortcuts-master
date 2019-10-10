@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">AppShortcuts</string>
+
+
+    <!-- MAIN SCREEN -->
+    <string name="main_screen_button_call_jack">Call Jack</string>
+    <string name="main_screen_button_call_jill">Call Jill</string>
+    <string name="main_screen_shortcut_call_jack_short">Call Jack</string>
+    <string name="main_screen_shortcut_call_jack_long">Call Jack Dynamic</string>
+    <string name="main_screen_shortcut_call_jill_short">Call Jill</string>
+    <string name="main_screen_shortcut_call_jill_long">Call Jill Dynamic</string>
+
+    <!-- SETTINGS SHORTCUT -->
+    <string name="settings_shortcut_short_label">Settings</string>
+    <string name="settings_shortcut_long_label">Settings Test Activity</string>
+    <string name="settings_shortcut_disabled_msg">The Settings shortcut is disabled.</string>
+
+    
+    <!-- MY PROFILE SHORTCUT -->
+    <string name="my_profile_shortcut_short_label">My Profile</string>
+    <string name="my_profile_shortcut_long_label">My Profile Test Activity</string>
+    <string name="my_profile_shortcut_disabled_msg">The My Profile shortcut is disabled.</string>
+
+    
+    <!-- SHOP SHORTCUT -->
+    <string name="shop_shortcut_short_label">Shop</string>
+    <string name="shop_shortcut_long_label">Shop Test Activity</string>
+    <string name="shop_shortcut_disabled_msg">The Shop shortcut is disabled.</string>
+
+
+    <!-- SETTINGS SCREEN -->
+    <string name="settings_screen_msg">Hello from Settings!</string>
+
+
+    <!-- MY PROFILE SCREEN -->
+    <string name="my_profile_msg">Hello from My Profile!</string>
+
+
+    <!-- SHOP SCREEN -->
+    <string name="shop_screen_msg">Hello from Shop!</string>
+</resources>

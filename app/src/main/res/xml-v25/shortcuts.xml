@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- SETTINGS SHORTCUT -->
+    <shortcut
+        android:shortcutId="settings"
+        android:enabled="true"
+        android:shortcutShortLabel="@string/settings_shortcut_short_label"
+        android:shortcutLongLabel="@string/settings_shortcut_long_label"
+        android:shortcutDisabledMessage="@string/settings_shortcut_disabled_msg">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.kostovtd.appshortcuts"
+            android:targetClass="com.kostovtd.appshortcuts.SettingsActivity"/>
+    </shortcut>
+
+
+    <!-- MY PROFILE SHORTCUT -->
+    <shortcut
+        android:shortcutId="my_profile"
+        android:enabled="true"
+        android:shortcutShortLabel="@string/my_profile_shortcut_short_label"
+        android:shortcutLongLabel="@string/my_profile_shortcut_long_label"
+        android:shortcutDisabledMessage="@string/my_profile_shortcut_disabled_msg">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.kostovtd.appshortcuts"
+            android:targetClass="com.kostovtd.appshortcuts.MyProfileActivity"/>
+    </shortcut>
+
+
+    <!-- SHOP SHORTCUT -->
+    <shortcut
+        android:shortcutId="shop"
+        android:enabled="true"
+        android:shortcutShortLabel="@string/shop_shortcut_short_label"
+        android:shortcutLongLabel="@string/shop_shortcut_long_label"
+        android:shortcutDisabledMessage="@string/shop_shortcut_disabled_msg">
+
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.kostovtd.appshortcuts"
+            android:targetClass="com.kostovtd.appshortcuts.ShopActivity"/>
+    </shortcut>
+</shortcuts>
